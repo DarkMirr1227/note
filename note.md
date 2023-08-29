@@ -20,7 +20,7 @@
 </blockquote>
 이를 통해 사용자의 통화패턴, 이동경로, 통화시간을 확인할 수 있습니다.
 <h4><li>Traffic semantic tagging with clustering method</li></h4>
-K-means를 통해 클러스터링하고, Working Area, Residential Area, Urbab road Area로 분류하였습니다.(아래 그림 참고)
+K-means를 통해 클러스터링하고, Working Area, Residential Area, Urban road Area로 분류하였습니다.(아래 그림 참고)
 <img src="source/image01.png">
 한 셀을 기준으로 유저들의 inflow, outflow 시계열(24시간)을 통해 구분하였는데, 이를 통해 <i>Traffic zone attribute index</i>를 정의했습니다.
 <img src="source/formula01.png">
@@ -28,6 +28,7 @@ V_mi: Average Hourly Incremental flow of AM peak hours (7–9 AM) <br>
 V_ei: Average Hourly Incremental flow of PM peak hours (6–8 PM) <br>
 이를 통해 기지국들을 클러스터링한 결과는 아래 사진에 표시하였습니다.
 <img src="source/image02.png">
+<i>Traffic zone attribute index</i>이 -1에 가까우면 Resiential Area, 1에 가까우면 Working Area, 0에 가까우면 Urban road Area인 특성을 띕니다.
 
 <h2>A Study of Deep Learning Networks on Mobile Traffic Forecasting</h2>
 <blockquote>이 논문은 5G 이동통신 기술의 발전에 따라, 대용량 데이터를 기반으로 한 모바일 인터넷 트래픽 예측과 이해가 스마트한 관리 기능을 가능하게 하는 기초가 된다는 것을 강조합니다.
