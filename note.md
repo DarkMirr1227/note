@@ -75,7 +75,7 @@ T : 스냅샷이 참조하는 시간간격, Z : 트래픽이 집계되는 지리
 
 <h4><li>Most Frequently used Antenna(MFA)</li></h4>
 안테나의 경우 같은(비슷한) 위치여도 다른 안테나로 통화가 되는 경우가 있습니다. 그렇기에 근처에 위치한 안테나를 묶어서 하나의 그룹으로 표현할 필요가 있습니다. 해당 안테나들을 그룹으로 묶기 위해서 해당 논문에서는 the Delaunay radius of each antenna to be the largest distance between an antenna를 정의하여 안테나의 그룹을 묶었습니다.
-<a ref="https://darkpgmr.tistory.com/96">Delaunay에 관한 자세한 내용은 링크 참고</a>
+<a href="https://darkpgmr.tistory.com/96">Delaunay에 관한 자세한 내용은 링크 참고</a>
 <h4><li>클러스터 분류결과</li></h4>
 k=3으로 클러스터링하였습니다. (주거지, 직장, 그외)
 <img src="source/image04.png">
