@@ -1,3 +1,4 @@
+![bluetooth low energy stack](/bt_source/bluetooth_LE_stack.png "ble stack")
 
 | layer | Key Responsibilites |
 | --- | --- |
