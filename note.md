@@ -41,9 +41,13 @@ V_ei: Average Hourly Incremental flow of PM peak hours (6–8 PM) <br>
 
 
 <h2>Understanding the Characteristics of Cellular Data Traffic</h2>
-<blockquote>대규모 셀룰러 네트워크와 소규모 고정 네트워크에서 수집한 트래픽에 대한 포괄적인 연구 결과를 보고합니다. 이 연구에서는 다음과 같은 세 가지 기여를 합니다. 첫째, 다양한 서비스에 대한 트래픽 특성을 연구하고, 서로 다른 응용 프로그램이 패킷 레벨, 흐름 레벨 및 세션 레벨에서 네트워크 자원에 다른 요구를 부과하는 것을 발견합니다. 둘째, 이러한 결과를 고정 네트워크의 결과와 비교하여 서로 다른 네트워크 접속으로 인해 유발되는 독특한 패턴을 발견합니다. 셋째, 응용 프로그램 간 및 네트워크 유형 간 비교를 수행하여 사용자의 사용 동작을 분석합니다.
-
+<blockquote>
 저희는 패킷 레벨, 흐름 레벨 및 세션 레벨에서 메트릭을 사용하여 트래픽을 분석합니다. 각 메트릭마다 서로 다른 응용 프로그램의 트래픽과 유선 네트워크의 트래픽을 비교합니다. 마지막으로, 저희의 연구 결과가 셀룰러 인프라에서 더 나은 자원 활용을 위한 함의에 대해 논의합니다.</blockquote>
+<h4><li>Metric</li></h4>
+<h5>packet level</h5> 패킷 크기, 패킷간의 시간
+<br><h5>flow level</h5> 패킷의 수, 패킷 duration 분포, source IP, destination IP, source
+port, destination port, IP Protocol type
+<br><h5>session level</h5> URL...? 유저에 더 가까운 정보들
 
 <h2>Large-Scale Mobile Traffic Analysis: A Survey</h2>
 <blockquote>이 논문은 모바일 운영자가 수집한 데이터를 기반으로 모바일 트래픽 분석에 대한 문헌 조사를 수행한 결과를 제시하고 있습니다. 이 논문에서는 다양한 스케일로 분류된 트래픽에 대해 다루고 있으며, 이를 기반으로 연구 분야의 계층적 분류 체계를 제안하고 있습니다. 
